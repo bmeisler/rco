@@ -1,5 +1,6 @@
 $(function(){
       $("#include-rco-header").load("inc/rco-header.html"); 
+      $("#include-rco-footer").load("inc/rco-footer.html"); 
 });
 
 $(document).ready(function () {
