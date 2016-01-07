@@ -1,0 +1,69 @@
+.container > h1 {  
+	text-align: center;  
+} 
+
+.rco-header{
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 30px;
+    background-color: #428bca;
+    color:#fff;
+}
+.rco-header >img{
+    float: right;
+}
+.float-right{
+	float:right;
+}
+.rco-players{
+	font-size:16px;
+	margin:0px;
+}
+.rco-date{
+	margin-top:36px;
+	border-top: #ccc;
+	font-style: italic;
+}
+.rco-featured-musician{
+	margin-top:36px;
+	font-size:20px;
+	font-style: italic;
+
+}
+.rco-left-img{
+	padding-right:12px;
+}
+.rco-fb-img{
+	margin-top:-8px;
+}
+.rco-padding-right{
+	padding-right:30px;
+}
+/* offsets anchors with fixed top menu */
+/*a[name] {
+  padding-top: 40px;
+  margin-top: -40px;
+  display: inline-block; 
+}*/
+
+.responsive-video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; overflow: hidden;
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+@font-face {
+            font-family: 'Glyphicons Halflings';
+            src: url('/fonts/glyphicons-halflings-regular.eot');
+        }
