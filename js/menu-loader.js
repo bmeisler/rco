@@ -9,7 +9,18 @@ $(document).ready(function () {
             e.preventDefault();
             $('ul.nav > li').removeClass('active');
             $(this).addClass('active');                
-        });            
+        }); 
+
+        /* Smooth Scroll */
+  jQuery('#my-nav li').bind('click',function(event){
+      var anchor = jQuery(this).find('a');
+      jQuery('#my-nav li').removeClass('active');
+      jQuery(this).addClass('active');
+      jQuery('html, body').stop().animate({
+          scrollTop: jQuery(anchor.attr('href')).offset().top-50
+      }, 1500,'easeInOutExpo');
+      event.preventDefault();
+  });           
     });
 
 $('#myTab a').click(function (e) {
