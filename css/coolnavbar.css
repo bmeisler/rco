@@ -365,7 +365,7 @@ footer .hysta-logo {
 /* Brand */
 .navbar-brand {
 	outline:none;
-	width:90px;
+	/*width:90px;*/
 	margin-top:-4px;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
