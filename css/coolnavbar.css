@@ -820,9 +820,10 @@ header .mobile-icons a .fa {
 	font-weight:300;
 	font-size:16px;
 	min-height:270px;
+	margin-top:20px;
 }
 .footer-border {
-	margin-top:80px;
+	margin-top:40px;
 	padding-left:25px;
 	min-height:300px;
 	border-left:2px dotted #555;
@@ -1811,4 +1812,9 @@ input[type="checkbox"] + label small {
 	transform:rotate(180deg);
 	}*/
 
+}
+
+.mc-field-group{
+	padding-right:20px;
+	padding-bottom: 15px;
 }
