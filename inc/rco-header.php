@@ -1,3 +1,4 @@
+    
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.css">
@@ -34,7 +35,7 @@
 <div class="rco-header">
     <div class="row vertical-align-top">
         <div class="col-xs-6"> 
-          <h1 class="h1-top">Russian Chamber Orchestra</h1>
+          <!-- <h1 class="h1-top">Russian Chamber Orchestra</h1> -->
           <h6>Русский камерный оркестр</h6>
         </div>
          <div class="col-xs-6">
@@ -59,16 +60,16 @@
         <a data-toggle="collapse" data-target="#search-bar" class="circl"><i class="fa fa-search"></i></a>
         <a data-toggle="collapse" data-target="#user" class="circl"><i class="fa fa-user"></i></a>
       </div> -->
-      <a class="navbar-brand" href="index.html">Russian Chamber Orchestra</a>
+      <a class="navbar-brand" href="index.php">Russian Chamber Orchestra</a>
     </div>
       
     <div class="collapse navbar-collapse" id="my-nav" role="navigation">
       <ul class="nav navbar-nav" >
 <!--         <li  class="active"><a href="index.html" >Home</a></li>
- -->        <li><a href="season-and-tickets.html" >Season and Tickets</a></li>
-        <li><a href="support-and-volunteer.html" >Support and Volunteer</a></li>
-        <li><a href="musicians.html" >Music and Soloists</a></li>
-        <li><a href="about-the-russian-chamber-orchestra.html" >About the RCO</a></li>
+ -->        <li><a href="season-and-tickets.php" >Season and Tickets</a></li>
+        <li><a href="support-and-volunteer.php" >Support and Volunteer</a></li>
+        <li><a href="musicians.php" >Music and Soloists</a></li>
+        <li><a href="about.php" >About the RCO</a></li>
         <li><a data-toggle="collapse" data-target="#user"><i class="circl crl-left"><i class="fa fa-user"></i></i></a></li>
         <li><a data-toggle="collapse" data-target="#search-bar"><span class="fa fa-search" ></span></a></span></a></li>
 
@@ -87,6 +88,7 @@
     </div><!--/.nav-collapse -->
     
   </div>
+</header>
 
   
 
