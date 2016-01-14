@@ -53,8 +53,9 @@
         New York, Louisiana, Netherlands and Denver. Her engagements in Spring 2010 included a debut at Alice
         Tully Hall and at Stern Auditorium at Carnegie Hall in New-York City.
         </p>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/EB3gGTrCFCg" frameborder="0" allowfullscreen></iframe>
+<div class="responsive-video"><iframe width="420" height="315" src="https://www.youtube.com/embed/EB3gGTrCFCg" frameborder="0" allowfullscreen></iframe></div>
 
+</div>
 </div>
 
 
@@ -145,6 +146,7 @@ who, along with her father, was always very supportive and played an
 important
 role in her becoming a professional musician. </p>
 
+<div class="responsive-video"><iframe width="420" height="315" src="https://www.youtube.com/embed/PaLXnewWncQ" frameborder="0" allowfullscreen></iframe></div> 
   <div class="responsive-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/mX55hbBTvk4" frameborder="0" allowfullscreen></iframe></div>   
 
      
@@ -188,9 +190,13 @@ role in her becoming a professional musician. </p>
       Brindel.</p>
       
      
+      <div class="responsive-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/OFmrYrQRrI4" frameborder="0" allowfullscreen></iframe></div>
 
+<div class="responsive-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/LaS9j55_iF4" frameborder="0" allowfullscreen></iframe></div>
   </div>
 </div>
+
+
 
 <div class="row">
    <div class="col-md-8"> 
@@ -249,8 +255,11 @@ Belmont, CA with her husband Adrian and two beautiful children,
 Arianna, age 5
 and Daniel, age 3.
       
+      <div class="responsive-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZD8KwZuLYMY" frameborder="0" allowfullscreen></iframe></div>
 </div>
 </div>
+
+
 
 
 <div class="row">
@@ -280,6 +289,9 @@ Chamber Orchestra, Berkeley Symphony, Classical Philharmonic,
 Lamplighters, and the percussion group Adesso. She is also an active
 chamber musician. Recent work includes several concerts involving
 collaborations between poets and composers.
+
+<div class="responsive-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/vjEkQT9FUPQ" frameborder="0" allowfullscreen></iframe> </div>
+
 </div>
 
  </div>
@@ -361,6 +373,8 @@ In Mexico he was admired due to his capacity to approach solo repertoire as well
 <p>
 Osvaldo de Leon finished his Bachelor?s degree in Piano Performance at Escuela Superior de M?sica y Danza de Monterrey, M?xico and his Master's degree in Piano Performance and Chamber Music at San Francisco State University. His teachers have been Gerardo Antonio Gonz?lez, Naoya Seino, Gregory Allen and Dr. Roger Woodward. He also has studies in composition under the guidance of Jorge Torres and Georgina Derbez.
 
+<div class="responsive-video"><iframe width="420" height="315" src="https://www.youtube.com/embed/po9ERbFV1ko" frameborder="0" allowfullscreen></iframe></div>
+
 </div>
 </div>
 
@@ -432,8 +446,13 @@ Competition. She is invited to judge the 2014 Young Pianist Beethoven Competitio
 San Jose State University and the 2014 MTAC Piano Concerto Solo Competition.
 Natalya is a faculty member at Lena Grozman Piano School, and is currently teaching at
 Heald College as an adjunct professor.
+
+<div class="responsive-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/UloGPHsFr9c" frameborder="0" allowfullscreen></iframe> </div>
+
 </div>
  </div>
+
+
 
 <!-- Polina Sedukh -->
 <div class="row">

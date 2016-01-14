@@ -1,14 +1,26 @@
 <section id="footer">
+  <div class="container">
       <div class="row">
-        <div class="col-sm-4 footer-border">
+        <div class="col-sm-4 footer-border"><!-- 1st column -->
           <h3 class="mb40">Russian</br>
           Chamber</br>
           Orchestra</h3>
                    <p><strong>Alexander Vereshagin</strong></br>
                     Music Director &amp; Conductor</p>
 
+        <!-- Copyright for Desktop -->
+        <div class="menu-desktop small ">
+          <nav class="menu">
+            <a href="index.php">Home</a>
+            <span></span>
+            <a href="about.php">About</a>
+        <span></span>
+        <a href="season-and-tickets.php">Tickets</a>
+          </nav>
+          Copyright &#169;&nbsp;<script>document.write(new Date().getFullYear())</script><noscript>2015</noscript> Russian Chamber Orchestra. </br>All Rights Reserved.
         </div>
-        <div class="col-sm-4 footer-border">
+        </div>
+        <div class="col-sm-4 footer-border"><!-- 2nd column -->
           <h3 class="mb40">Contact</h3>
           For general Inquiry
           <br>
@@ -24,11 +36,11 @@
                   <li><a href="http://www.facebook.com/RussianChamberOrchestra" target="_blank"><i class="fa fa-facebook"></i></a></li>
 
         </div>
-        <div class="col-sm-4 footer-border">
 
+        <div class="col-sm-4 footer-border"><!-- 3rd column -->
 
         <!-- Subscribe -->
-        <h3>Join our mailing <span class="hidden-sm">list</span></h3>
+        <h3>Join our mailing list</h3>
 
        <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
@@ -68,9 +80,9 @@
   </div>
 
 <!--End mc_embed_signup-->
-
         </div>
       </div>
+    </div>
     </section>
     
 

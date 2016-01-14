@@ -26,13 +26,13 @@
 
 <div class="container">
      <div class="row">
-      <div class=" col-xs-8">
+      <div class=" col-md-8">
       <h2>History of 
 the Russian Chamber Orchestra</h2>
       </div>
       </div>
         <div class="row">
-          <div class=" col-xs-8">
+          <div class=" col-md-8">
         <p>The Russian Chamber Orchestra was founded in 1992 by its 
 Music Director and Conductor, Alexander Vereshagin. Mr. Vereshagin was educated 
 in the Glinka Capella and continued his studies at the Leningrad National 

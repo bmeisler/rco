@@ -49,7 +49,6 @@
         <h2 class="rco-players"><a href="musicians.html#Marilyn Thompson"><em>Marilyn Thompson,</em></a> piano</h2>
       </div>
       <div class="col-md-4"> 
-       asdfasdfsd
       </div>
   </div>
    <div class="row">
