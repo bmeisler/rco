@@ -55,6 +55,7 @@ h7,.h7 {font-size:12px;}
 	background:#000;
 	max-height:55px;
 }
+
 #search-bar .search {
 	width:100%;
 	display:inline-block;
@@ -241,8 +242,9 @@ footer .hysta-logo {
 }
 .navbar .navbar-collapse {
 	background:transparent;
-	text-align:center;
+/*	text-align:center;*/
 	margin:-10px 0 0 0;
+	padding-left:30px !important;
 	border:0;
 	-moz-box-shadow:none;
 	-webkit-box-shadow:none;

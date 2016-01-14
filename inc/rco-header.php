@@ -50,28 +50,28 @@
 <header id="top-menu" class="navbar navbar-static-top">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-       <!-- <div class="mobile-icons visible-xs-block">
+       <div class="mobile-icons visible-xs-block">
         <a data-toggle="collapse" data-target="#search-bar" class="circl"><i class="fa fa-search"></i></a>
         <a data-toggle="collapse" data-target="#user" class="circl"><i class="fa fa-user"></i></a>
-      </div> -->
+      </div>
       <a class="navbar-brand" href="index.php">Russian Chamber Orchestra</a>
     </div>
       
     <div class="collapse navbar-collapse" id="my-nav" role="navigation">
       <ul class="nav navbar-nav" >
 <!--         <li  class="active"><a href="index.html" >Home</a></li>
- -->        <li><a href="season-and-tickets.php" >Season and Tickets</a></li>
-        <li><a href="support-and-volunteer.php" >Support and Volunteer</a></li>
-        <li><a href="musicians.php" >Music and Soloists</a></li>
-        <li><a href="about.php" >About the RCO</a></li>
-        <li><a data-toggle="collapse" data-target="#user"><i class="circl crl-left"><i class="fa fa-user"></i></i></a></li>
-        <li><a data-toggle="collapse" data-target="#search-bar"><span class="fa fa-search" ></span></a></span></a></li>
+ -->    <li><a href="season-and-tickets.php" >Tickets</a></li>
+        <li><a href="support-and-volunteer.php" >Volunteer</a></li>
+        <li><a href="musicians.php" >Music & Soloists</a></li>
+        <li><a href="about.php" >About</a></li>
+        <li class="hidden-xs"><a data-toggle="collapse" data-target="#user"><i class="circl crl-left"><i class="fa fa-user"></i></i></a></li>
+        <li class="hidden-xs"><a data-toggle="collapse" data-target="#search-bar"><span class="fa fa-search" ></span></a></span></a></li>
 
       </ul>
 <!--        <ul class="nav navbar-nav navbar-right rco-padding-right">
