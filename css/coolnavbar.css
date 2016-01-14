@@ -89,7 +89,7 @@ h7,.h7 {font-size:12px;}
 	Header and Navigation
 	================================================================================	*/
 
-header .symbol {
+/*header .symbol {
 	width:77px;
 	height:77px;
 	margin-top:1px;
@@ -116,7 +116,7 @@ footer .hysta-logo {
 	height:auto;
 	margin-left:2px;
 	margin-top:0;
-}
+}*/
 /* Navigation */
 #top-menu {
 	top:0 !important;
@@ -377,6 +377,7 @@ footer .hysta-logo {
 a.navbar-brand a:active,a:focus {
 	outline:none;
 }
+/*When the user scrolls down 100px, this class is attached, via jquery*/
 .minified {
 	-webkit-box-shadow:0 1px 0 #999;
 	-moz-box-shadow:0 1px 0 #999;
@@ -442,7 +443,7 @@ header .mobile-icons a .fa {
 	Menu on Page
 	================================================================================	*/
 
-.menu-page {
+/*.menu-page {
 	width:100%;
 	background:#000;
 	height:auto;
@@ -543,7 +544,7 @@ header .mobile-icons a .fa {
 }
 
 
-
+*/
 
 /*	================================================================================
 	Footer
@@ -693,7 +694,7 @@ header .mobile-icons a .fa {
 	background:#333;
 }
 /* Dark Overlay */
-#loading,#thanks,#thanks-reg {
+/*#loading,#thanks,#thanks-reg {
 	top:0;
 	left:0;
 	z-index:9999;
@@ -703,7 +704,7 @@ header .mobile-icons a .fa {
 	height:100%;
 	min-height:100%;
 	background:rgba(0,0,0,0.7);
-}
+}*/
 .spin {
 	position:fixed;
 	left:50%;
@@ -761,7 +762,7 @@ header .mobile-icons a .fa {
 	transform:rotate(180deg);
 }
 /* To Top */
-.scrolltotop {
+/*.scrolltotop {
 	position:fixed;
 	bottom:-50px;
 	right:20px;
@@ -796,12 +797,14 @@ header .mobile-icons a .fa {
 	-moz-transition:all 0.4s ease-out;
 	-o-transition:all 0.4s ease-out;
 	transition:all 0.4s ease-out;
-}
+}*/
 
 
 
 /*	================================================================================
 	Section Scroll Revealler
+
+	This makes each page fade in when navigated to
 	================================================================================	*/
 
 #cbp-so-scroller {
@@ -1003,7 +1006,7 @@ input[type="search"]:focus{
 /* Footer Sing up */
 .input-lg-left {padding-right:7px;}
 .input-lg-right {padding-left:7px;}
-#registation .code {
+/*#registation .code {
 	text-align:left;
 	padding-top:2px;
 }
@@ -1012,9 +1015,9 @@ input[type="search"]:focus{
 	letter-spacing:1px;
 	font-size:1.2em;
 	margin-top:10px;
-}
+}*/
 /* Start Hack with select & label */
-#registation select {outline:none;cursor:pointer;}
+/*#registation select {outline:none;cursor:pointer;}
 #registation select.input-lg {
 	height:45px;
 	color:#999;
@@ -1051,10 +1054,10 @@ input[type="search"]:focus{
 #registation label.select:hover:before {
 	color:#eee;
 	background:#555;
-}
+}*/
 /* End:Hack with select & label */
 /* upload file button */				
-.btn-file {
+/*.btn-file {
     position:relative;
     overflow:hidden;
 }
@@ -1072,7 +1075,7 @@ input[type="search"]:focus{
     background:white;
     cursor:inherit;
     display:block;
-}
+}*/
 
 /*	================================================================================
 	Radio and Check Boxes
@@ -1215,10 +1218,10 @@ input[type="checkbox"] + label small {
 	================================================================================	*/
 @media(max-width:300px) {
 	
-	#myCarousel h2,
+/*	#myCarousel h2,
 	#display h2 {
 	font-size:50px;
-	}
+	}*/
 	.footer-col-3{
 		padding-left:5px !important;
 		padding-right:5px;
@@ -1248,7 +1251,7 @@ input[type="checkbox"] + label small {
 	================================================================================	*/
 @media(max-width:480px) {
 	
-	#display .display-title {
+/*	#display .display-title {
 	top:45%;
 	}
 
@@ -1271,7 +1274,7 @@ input[type="checkbox"] + label small {
 	#display h5 {
 	font-size:18px;
 	margin-bottom:-5px;
-	}
+	}*/
 		footer .footer-col-3{
 		padding-left:50px !important;
 		padding-right:50px;
@@ -1283,7 +1286,7 @@ input[type="checkbox"] + label small {
 	================================================================================	*/
 @media(min-width:480px) {
 	
-	#myCarousel h2,
+/*	#myCarousel h2,
 	#display h2 {
 	font-size:70px;
 	}
@@ -1297,7 +1300,7 @@ input[type="checkbox"] + label small {
 	#myCarousel h5,
 	#display h5 {
 	font-size:35px;
-	}
+	}*/
 }
 
 /*	================================================================================
@@ -1318,16 +1321,16 @@ input[type="checkbox"] + label small {
 		transform:scale(1.2);
 		padding:10px 0 0 25px;
 	}*/
-	.parallax-title {
+/*	.parallax-title {
 	height:500px;
-	}
+	}*/
 	.content h2 {
 	font-size:40px;
 	}
 	.content .text .mt60 {
 	text-align:center;	
 	}
-	#display-short .display-title {
+	/*#display-short .display-title {
 	top:180px;
 	}
 	.blog-sidenav > li > a:hover,
@@ -1372,7 +1375,7 @@ input[type="checkbox"] + label small {
 	}
 	h4.timeline-date {	
 	font-size:18px;
-	}
+	}*/
 }
 
 /*	================================================================================
@@ -1427,7 +1430,7 @@ input[type="checkbox"] + label small {
 	.content .text .mt60 {
 	text-align:left;	
 	}
-	#display-short h2 {
+/*	#display-short h2 {
 	font-size:80px;
 	}
 	#display-short h3 {
@@ -1435,8 +1438,8 @@ input[type="checkbox"] + label small {
 	}
 	#display-short .display-title {
 	top:190px;
-	}
-	#r-col {
+	}*/
+/*	#r-col {
 	padding:0 0 0 40px;
 	}
 	.blog-sidenav > li > a:hover,
@@ -1455,7 +1458,7 @@ input[type="checkbox"] + label small {
 	}
 	#map .event-address {
 	text-align:left;
-	}
+	}*/
 }
 
 /*	================================================================================
@@ -1485,7 +1488,7 @@ input[type="checkbox"] + label small {
 	line-height:26px;
 	padding:2px 7px;
 	}
-	.menu-fixed .menu-page {
+/*	.menu-fixed .menu-page {
 	font-size:16px;
 	line-height:20px;
 	}
@@ -1498,7 +1501,7 @@ input[type="checkbox"] + label small {
 	}
 	.menu-page .nav-tabs li a {
 	padding:8px 12px 0 12px;
-	}
+	}*/
 }
 /*	================================================================================
 	992px - Min
