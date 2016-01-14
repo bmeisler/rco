@@ -33,12 +33,12 @@ h7,.h7 {font-size:12px;}
 
 
 /* Back & White Filter */
-.grayscale {
+/*.grayscale {
 	-webkit-filter:grayscale(100%);
 	filter:grayscale(100%);
 	filter:gray;
 	filter:url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
-}
+}*/
 
 
 /*	================================================================================
@@ -46,11 +46,11 @@ h7,.h7 {font-size:12px;}
 	================================================================================	*/
 
 #search-bar {
-	top:130px;
+	top:43px;
 	left:0;
 	right:0;
 	z-index:3002;
-	position:fixed;
+	position:absolute;
 	text-align:center;
 	background:#000;
 	max-height:55px;
@@ -63,14 +63,14 @@ h7,.h7 {font-size:12px;}
 }
 #search-bar .search .input-lg {
 	color:#fff;
-	font-size:22px;
+	font-size:16px;
 	font-weight:400;
 }
 #search-bar .search .search-closer {
 	float:right;
 	color:#ccc;
-	font-size:28px;
-	margin:-58px 12px 0 0;
+	font-size:24px;
+	margin:-54px 12px 0 0;
 	-webkit-transition:all 0.4s ease-out;
 	-moz-transition:all 0.4s ease-out;
 	-o-transition:all 0.4s ease-out;
@@ -367,9 +367,8 @@ footer .hysta-logo {
 /* Brand */
 .navbar-brand {
 	outline:none;
-	/*width:90px;*/
-	margin-top:-4px;
-	-webkit-transition:all 0.2s ease-in-out;
+/*	margin-top:-4px;
+*/	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 	-ms-transition:all 0.2s ease-in-out;
@@ -383,7 +382,7 @@ a.navbar-brand a:active,a:focus {
 	-moz-box-shadow:0 1px 0 #999;
 	box-shadow:0 1px 0 #999;
 	opacity:1;
-	padding:5px 0;
+	/*padding:5px 0;*/
 	top:0 !important;
 	-webkit-transition:all 0.2s ease-out;
 	-moz-transition:all 0.2s ease-out;
@@ -1166,8 +1165,21 @@ input[type="checkbox"] + label small {
 	240px
 	================================================================================	*/
 @media(min-width:240px) {
+		.minified .navbar-brand {
+		position:absolute;
+		top:0px;
+		left:15px;
+		font-size:16px;
+	}
+	.navbar-brand{
+		position:absolute;
+		top: 6px;
+		left:15px;
+		margin:0px !important;
+		font-size: 16px;
+	}
 
-	.minified .navbar-brand {
+/*	.minified .navbar-brand {
 		padding:0;
 		margin-top:15px;
 		-webkit-transform:scale(0.9);
@@ -1191,11 +1203,8 @@ input[type="checkbox"] + label small {
 		position:absolute;
 		top:-60px;
 		left:72px;
-	}
-	.parallax-title {
-	font-size:35px;
-	line-height:40px;
-	}
+	}*/
+
 	#r-col {
 	padding-left:15px;
 	}
@@ -1242,13 +1251,7 @@ input[type="checkbox"] + label small {
 	#display .display-title {
 	top:45%;
 	}
-	.parallax-award {
-	background:url(../img/china-yunnan.jpg) no-repeat center top fixed;
-	background-size:cover;
-	}
-	.parallax-title {
-	height:400px;
-	}
+
 	#myCarousel h3,
 	#display h3 {
 	font-size:50px;
@@ -1303,9 +1306,9 @@ input[type="checkbox"] + label small {
 @media(max-width:767px) {
 
 	.navbar .navbar-collapse {
-	padding:0 30px 30px 0;
-	border:0;
-	overflow:hidden;
+		padding:0 30px 30px 0;
+		border:0;
+		overflow:hidden;
 	}
 	/*.navbar-brand {
 		-webkit-transform:scale(1.2);
@@ -1376,11 +1379,25 @@ input[type="checkbox"] + label small {
 	768px - Min
 	================================================================================	*/
 @media(min-width:768px) {
+
+		.minified .navbar-brand {
+		position:absolute;
+		top:0px;
+		left:15px;
+		font-size:16px;
+	}
+	.navbar-brand{
+		position:absolute;
+		top: -60px;
+		left:15px;
+		margin:0px !important;
+		font-size: 24px;
+	}
 	
 	.navbar .navbar-nav {
-	/*height:39px;*/
-	float:right;
-	margin:6px 0 0 0;
+		height:39px;
+		float:right;
+		/*margin:6px 0 0 0;*/
 	}
 /*	.navbar-brand {
 	-webkit-transform:scale(1.3);
@@ -1445,6 +1462,7 @@ input[type="checkbox"] + label small {
 	992px - Max
 	================================================================================	*/
 @media(max-width:991px){
+
 	/*.navbar-brand {
 		padding:22px 0 0 15px;
 		-webkit-transform:scale(1.8);
@@ -1486,6 +1504,15 @@ input[type="checkbox"] + label small {
 	992px - Min
 	================================================================================	*/
 @media(min-width:992px){
+	.minified .navbar-brand {
+		position:absolute;
+		top:0px;
+		left:15px;
+		font-size:16px;
+	}
+	.navbar-brand{
+		font-size: 30px;
+	}
 	/*.navbar-brand {
 		padding:22px 0 0 15px;
 		-webkit-transform:scale(1.8);
@@ -1510,10 +1537,8 @@ input[type="checkbox"] + label small {
 	-ms-transform:rotate(180deg);
 	transform:rotate(180deg);
 			}*/
-				.minified .navbar-brand {
-position:absolute;
-top:25px;
-			}
+
+
 
 }
 

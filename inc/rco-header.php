@@ -17,29 +17,15 @@
 
   </head>
 <body data-spy="scroll" data-target="#my-nav" id="cbp-so-scroller">
-<!-- Search -->
-<div id="search-bar" class="collapse">
-  <div class="container">
-    <div class="row">
-      <div class="search">
-        <form method="post" action="search.htm">
-          <div class="form-group">
-            <input type="text" class="form-control input-lg" name="" onfocus="this.placeholder=''" onblur="this.placeholder='Type in search here'" placeholder="Type in search here">
-          </div>
-        </form>
-        <a class="search-closer" data-toggle="collapse" data-target="#search-bar"><i class="fa fa-times"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
+
 <div class="rco-header">
     <div class="row vertical-align-top">
         <div class="col-xs-6"> 
           <!-- <h1 class="h1-top">Russian Chamber Orchestra</h1> -->
-          <h6>Русский камерный оркестр</h6>
+          <div class="russian-header">Русский камерный оркестр</div>
         </div>
          <div class="col-xs-6">
-         <p class="music-director"><strong>Alexander Vereshagin</strong> – Music Director &amp; Conductor</p>
+         <div class="music-director"><strong>Alexander Vereshagin</strong> – Music Director &amp; Conductor</div>
         </div>
         <!-- <div class="col-xs-2">
          <img alt="Alexander Verashagin" src="images/AV_125.jpg">
@@ -61,6 +47,21 @@
         <a data-toggle="collapse" data-target="#user" class="circl"><i class="fa fa-user"></i></a>
       </div>
       <a class="navbar-brand" href="index.php">Russian Chamber Orchestra</a>
+      <!-- Search -->
+<div id="search-bar" class="collapse">
+  <div class="container">
+    <div class="row">
+      <div class="search">
+        <form method="post" action="search.htm">
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" name="" onfocus="this.placeholder=''" onblur="this.placeholder='Type in search here'" placeholder="Type in search here">
+          </div>
+        </form>
+        <a class="search-closer" data-toggle="collapse" data-target="#search-bar"><i class="fa fa-times"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
       
     <div class="collapse navbar-collapse" id="my-nav" role="navigation">
