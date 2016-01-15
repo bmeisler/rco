@@ -3,6 +3,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.css">
      <link rel="stylesheet" href="css/coolnavbar.css">
+     <link rel="stylesheet" href="css/responsive-video.css">
     <link href="css/rco-custom.css" rel="stylesheet">
     <!-- <link href-"https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalie.css" rel="stylesheet"> -->
     <script>function maillink(lhs,rhs){document.write("<a href=\"mailto");document.write(":" + lhs + "@");document.write(rhs + "\" >" + lhs + "@" + rhs + "<\/a>");}</script>
