@@ -243,8 +243,8 @@ footer .hysta-logo {
 	height:32px;
 	width:34px;
 	opacity:0.85;
-	outline:none;
-	margin-top:5px;
+	outline:medium;
+	margin-top:2px;
 	padding:2px 0 0 0;
 	-webkit-transition:all 0.2s ease-out;
 	-moz-transition:all 0.2s ease-out;

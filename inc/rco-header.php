@@ -36,11 +36,8 @@
 <header id="top-menu" class="navbar navbar-static-top">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <i class="fa fa-bars"></i>
       </button>
        <div class="mobile-icons visible-xs-block">
         <a data-toggle="collapse" data-target="#search-bar" class="circl"><i class="fa fa-search"></i></a>
@@ -115,8 +112,21 @@
         <li><a href="support-and-volunteer.php" >Volunteer</a></li>
         <li><a href="musicians.php" >Music & Soloists</a></li>
         <li><a href="about.php" >About</a></li>
-        <li class="hidden-xs"><a data-toggle="collapse" data-target="#signup-bar"><i class="circl crl-left"><i class="fa fa-user"></i></i></a></li>
-        <li class="hidden-xs"><a data-toggle="collapse" data-target="#search-bar"><span class="fa fa-search" ></span></a></span></a></li>
+        <li class="hidden-xs">
+          <a data-toggle="collapse" data-target="#signup-bar">
+            <i class="circl crl-left">
+              <i class="fa fa-user"></i>
+            </i>
+          </a>
+        </li>
+        <li class="hidden-xs">
+          <a data-toggle="collapse" data-target="#search-bar">
+            <i class="circl">
+              <i class="fa fa-search" ></i>
+            </i>
+          </a>
+          </a>
+        </li>
 
       </ul>
 <!--        <ul class="nav navbar-nav navbar-right rco-padding-right">
