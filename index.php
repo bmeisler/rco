@@ -11,8 +11,6 @@
 <!-- The menu goes here -->
 
 <?php include('inc/rco-header.php'); ?>
-<!-- <div id="include-rco-header"></div> -->
-
 
 
 <div class="container">

@@ -10,7 +10,6 @@
     
 
 <!-- The menu goes here -->
-<!-- <div id="include-rco-header"></div> -->
 <?php include('inc/rco-header.php'); ?>
 
 <div class="container">

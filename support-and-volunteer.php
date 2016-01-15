@@ -10,20 +10,8 @@
 
 
 <!-- The menu goes here -->
-<!-- <div id="include-rco-header"></div> -->
 <?php include('inc/rco-header.php'); ?>
 
-<!-- <div class="rco-header">
-    <div class="row">
-        <div class="col-xs-8"> 
-          <h1>Russian Chamber Orchestra</h1>
-        </div>
-         <div class="col-xs-4">
-         <img alt="Verashagin" src="images/AV_125.jpg" class="float-right">
-         <p class="float-right">Alexander Vereshagin - Music Director &amp; Conductor</p>
-        </div>
-    </div>
-</div> -->
   <div class="container">
      <div class="row">
      <div class="col-md-12"> 
