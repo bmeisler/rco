@@ -41,6 +41,20 @@ h7,.h7 {font-size:12px;}
 }*/
 
 
+
+#signup-bar {
+	top:50px;
+/*	left:0;*/
+	right:0;
+	z-index:3002;
+	position:absolute;
+	text-align:center;
+	background:#000;
+	max-height:255px;
+	padding-left:20px;
+}
+
+
 /*	================================================================================
 	Search
 	================================================================================	*/
@@ -674,7 +688,7 @@ header .mobile-icons a .fa {
 	padding-right:5px;
 	margin-bottom:10px;
 }
-#footer .btn-default,#user .btn-default {
+#footer .btn-default,#signup-bar .btn-default {
 	font-weight:300;
 	color:#000;
 	text-transform:uppercase;
@@ -686,12 +700,16 @@ header .mobile-icons a .fa {
 	-o-transition:all 0.4s ease-out;
 	transition:all 0.4s ease-out;
 }
-#user .btn-default:hover,
-#user .btn-default:focus,
+#signup-bar .btn-default:hover,
+#signup-bar .btn-default:focus,
 #footer .btn-default:hover,
 #footer .btn-default:focus {
 	color:#fff;
 	background:#333;
+}
+
+#footer .first-col{
+	border:none;
 }
 /* Dark Overlay */
 /*#loading,#thanks,#thanks-reg {
@@ -1004,7 +1022,7 @@ input[type="search"]:focus{
     -webkit-appearance:none;
 }
 /* Footer Sing up */
-.input-lg-left {padding-right:7px;}
+.input-lg-left {padding-right:0px;}
 .input-lg-right {padding-left:7px;}
 /*#registation .code {
 	text-align:left;
@@ -1171,16 +1189,27 @@ input[type="checkbox"] + label small {
 		.minified .navbar-brand {
 		position:absolute;
 		top:0px;
-		left:15px;
+		left:0px;
 		font-size:16px;
 	}
 	.navbar-brand{
 		position:absolute;
 		top: 6px;
-		left:15px;
+		left:0px;
 		margin:0px !important;
 		font-size: 16px;
 	}
+
+	#signup-bar {
+		width:350px;
+		border-bottom-left-radius:15px;
+		padding-right:20px;
+	}
+
+	.mc-field-group{
+	padding-right:20px;
+	padding-bottom: 15px;
+}
 
 /*	.minified .navbar-brand {
 		padding:0;
@@ -1313,6 +1342,11 @@ input[type="checkbox"] + label small {
 		border:0;
 		overflow:hidden;
 	}
+	#signup-bar {
+		width:100%;
+		border-bottom-left-radius:0px;
+		padding-right:0px;
+	}
 	/*.navbar-brand {
 		-webkit-transform:scale(1.2);
 		-moz-transform:scale(1.2);
@@ -1383,7 +1417,7 @@ input[type="checkbox"] + label small {
 	================================================================================	*/
 @media(min-width:768px) {
 
-		.minified .navbar-brand {
+	.minified .navbar-brand {
 		position:absolute;
 		top:0px;
 		left:15px;
@@ -1391,7 +1425,7 @@ input[type="checkbox"] + label small {
 	}
 	.navbar-brand{
 		position:absolute;
-		top: -60px;
+		top: -70px;
 		left:15px;
 		margin:0px !important;
 		font-size: 24px;
@@ -1402,6 +1436,20 @@ input[type="checkbox"] + label small {
 		float:right;
 		/*margin:6px 0 0 0;*/
 	}
+
+	.mc-field-group{
+		padding-right:0px;
+		padding-bottom: 15px;
+	}
+	.input-lg {
+	color:#ccc;
+	height:45px;
+	padding:10px 16px;
+	font-size:15px;
+	line-height:1.33;
+	background:#000;
+	border:1px solid #555;
+}
 /*	.navbar-brand {
 	-webkit-transform:scale(1.3);
 	-moz-transform:scale(1.3);
@@ -1545,7 +1593,3 @@ input[type="checkbox"] + label small {
 
 }
 
-.mc-field-group{
-	padding-right:20px;
-	padding-bottom: 15px;
-}

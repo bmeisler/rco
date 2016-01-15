@@ -22,6 +22,10 @@
     display: flex;
     align-items: top;
 }
+.vertical-align-middle {
+    display: flex;
+    align-items: middle;
+}
 .h1-top{
 	margin-top:0px;
 }
@@ -42,6 +46,10 @@
 		font-size: 18px;
 		text-align: right;
 		vertical-align: top;
+				position:absolute;
+		top: 14px;
+		right:0px;
+		padding-right:10px;
 
 	}
 		.russian-header{
@@ -101,6 +109,21 @@
 	.rco-header{
     	height:42px;
 	}
+		.music-director{
+		font-size: 14px;
+		text-align: right;
+		right:0px;
+		position:absolute;
+		top: 2px;
+		padding-right:10px;
+	}
+			.russian-header{
+		margin-left:15px;
+		font-size: 14px;
+		vertical-align: top;
+/*		position:absolute;
+		left:30px;*/
+	}
 
 /*	.music-director{
 		font-size: 16px;
@@ -121,17 +144,7 @@
 	992px - Max
 	================================================================================	*/
 @media(max-width:991px){
-	.music-director{
-		font-size: 14px;
-		text-align: right;
-	}
-			.russian-header{
-		margin-left:15px;
-		font-size: 14px;
-		vertical-align: top;
-/*		position:absolute;
-		left:30px;*/
-	}
+
 
 }
 /*	================================================================================
