@@ -27,7 +27,7 @@
 
 <div class="container">
      <div class="row">
-     <div class="col-md-6"> 
+     <div class="col-sm-6"> 
       <h2>RCO 2015-2016 Season <br><small><a class="btn btn-primary" href="http://www.brownpapertickets.com/event/1742440" target="_blank">Buy tickets online</a></small></h2>
     </div>
   </div>
@@ -36,7 +36,7 @@
 
 
   <div class="row">
-     <div class="col-xs-6"> 
+     <div class="col-sm-6"> 
       <h4 class="rco-date">October 25, 2015</h4>
 
        
@@ -103,7 +103,7 @@
 
 
 <!-- 2nd column -->
-      <div class="col-xs-6"> 
+      <div class="col-sm-6"> 
         <h4 class="rco-date">This season, all our concerts will be held at:</h4>
          <address><strong>Mt. Tamalpais United Methodist Church</strong><br>
         410 Sycamore Avenue, Mill Valley, CA 94941<br>
