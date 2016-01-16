@@ -200,16 +200,16 @@ $.getJSON('concerts6.json',function(data){
                 //compare today's date to the concert date, see if it's occurred yet
                 var d = Date.parse(con.date);
                 var t = Date.today();
-                //console.log(d);
-                //console.log(t);
-                //console.log(d >= t);
+                console.log(d);
+                console.log(t);
+                console.log(d >= t);
                 if (d>=t && found==false){
                   found = true;
                   nextConcertIndex = i;
                 }
               
                 $.each(con.location, function(index, value){
-                    console.log(value);
+                    //console.log(value);
                     currentString += '<address><strong>'+value.name + '</strong><br>'
                     + value.place + '<br>'
                     + value.when + '</address>';
@@ -217,7 +217,7 @@ $.getJSON('concerts6.json',function(data){
                 
                 
                   $.each(con.performances, function(index, value){
-                    console.log(value);
+                    //console.log(value);
                     // fullString += '<p class="rco-pieces">' + value +'</p>';
 
                     currentString += '<p class="rco-pieces">' 
