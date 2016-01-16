@@ -64,7 +64,11 @@
       <div id="signup-bar" class="collapse">
          <h4>Join our mailing list</h4>
            <div id="mc_embed_floating_signup">
-          <form action="//sensitiveskinmagazine.us2.list-manage.com/subscribe/post?u=df2b62f883c43ba3749ff7368&amp;id=c53aaba024" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+            <form action="http://russsianchamberorch.us2.list-manage1.com/subscribe/post" method="post">
+<input type="hidden" name="u" value="5e0434478e96f6841daff1690">
+<input type="hidden" name="id" value="5854671be8"> 
+
             <div id="mc_embed_signup_scroll">
               <div class="mc-field-group">
                 <input type="email" value="" name="EMAIL" placeholder="Email Address (required)" onfocus="this.placeholder=''" onblur="this.placeholder='Email Address'" class="required form-control input-lg" id="mce-EMAIL">
@@ -108,11 +112,11 @@
       
     <div class="collapse navbar-collapse" id="my-nav" role="navigation">
       <ul class="nav navbar-nav" >
-<!--         <li  class="active"><a href="index.html" >Home</a></li>
- -->    <li><a href="season-and-tickets.php" >Tickets</a></li>
-        <li><a href="support-and-volunteer.php" >Volunteer</a></li>
-        <li><a href="musicians.php" >Music & Soloists</a></li>
-        <li><a href="about.php" >About</a></li>
+        <li  ><a href="index.php">Home</a></li>
+        <li><a href="season-and-tickets.php">Tickets</a></li>
+        <li><a href="support-and-volunteer.php">Volunteer</a></li>
+        <li><a href="musicians.php">Music & Soloists</a></li>
+        <li><a href="about.php">About</a></li>
         <li class="hidden-xs">
           <a data-toggle="collapse" data-target="#signup-bar">
             <i class="circl crl-left">

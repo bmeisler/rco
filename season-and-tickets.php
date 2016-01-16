@@ -24,70 +24,10 @@
 
 
   <div class="row">
-     <div class="col-sm-6"> 
-      <h4 class="rco-date">October 25, 2015</h4>
-
-       
-
-        <p class="rco-pieces"><em>J. S. Bach</em> - Violin Concerto in A minor, BWV 1041<br>
-        <em>W. A. Mozart</em> - Piano Concerto #6, K. 238<br>
-        <em>J. Brahms</em> - Liebeslieder Waltzes, Op. 52 & 65
-
-        <h2 class="rco-players"><a href="musicians.html#Alena Tsoi"><em>Alena Tsoi,</em></a> violin</h2>
-        <h2 class="rco-players"><a href="musicians.html#Marilyn Thompson"><em>Marilyn Thompson,</em></a> piano</h2>
-
-
-        <h4 class="rco-date">December 6, 2015</h4>
-
-
-        <p class="rco-pieces"><em>W. A. Mozart</em> - Serenade #6, K. 239<br>
-        <em>P. Sarasate</em> - Gypsy Airs, Op. 20
-<br>
-        <em>F. Mendelssohn</em> - Piano Concerto #1, Op. 25
-
-        <h2 class="rco-players"><a href="musicians.html#Alena Tsoi"><em>Alena Tsoi,</em></a> violin</h2>
-        <h2 class="rco-players"><a href="musicians.html#Irina Behrendt"><em>Irina Behrendt,</em></a> piano</h2>
-
-
-
-
-
-<h4 class="rco-date">January 24, 2016</h4>
-
-       
-
-         <p class="rco-pieces"><em>A. Vivaldi</em> - Violin Concerto “Winter”<br>
-          <em>P. Tchaikovsky </em>- Pas de deux from “Swan Lake”<br>
-<em>W. A. Mozart</em> - Piano Concerto #12, K. 414<br>
-
-<h2 class="rco-players"><a href="musicians.html#Mariya Borozina"><em>Mariya Borozina,</em></a> violin</h2>
-        <h2 class="rco-players"><a href="musicians.html#Victoria Ehrlich"><em>Victoria Ehrlich,</em></a> cello</h2>
-        <h2 class="rco-players"><a href="musicians.html#Marilyn Thompson"><em>Marilyn Thompson,</em></a> piano</h2>
-
-
-        <h4 class="rco-date">March 6, 2016</h4>
-
-       
-
-        <p class="rco-pieces"><em>A. Vivaldi</em> - Violin Concerto “Winter”<br>
-<em>P. Tchaikovsky</em> - Pas de deux from “Swan Lake”</br>
-<em>W. A. Mozart</em> - Piano Concerto #12, K. 414
-
-        <h2 class="rco-players"><a href="musicians.html#Mariya Borozina"><em>Mariya Borozina,</em></a> violin</h2>
-        <h2 class="rco-players"><a href="musicians.html#Victoria Ehrlich"><em>Victoria Ehrlich,</em></a> cello</h2>
-        <h2 class="rco-players"><a href="musicians.html#Marilyn Thompson"><em>Marilyn Thompson,</em></a> piano</h2>
-
-
-         <h4 class="rco-date">May 8, 2016</h4>
-
-
-        <p class="rco-pieces"><em>A. Vivaldi </em>- Violin Concerto “Summer”
-<em>P. Tchaikovsky</em> - Andante cantabile, Op. 11
-<em>F. J. Haydn</em> - Piano Concerto in D major
-
-       <h2 class="rco-players"><a href="musicians.html#Elina Lev"><em>Elina Lev,</em></a> violin</h2>
-        <h2 class="rco-players"><a href="musicians.html#Irina Behrendt"><em>Irina Behrendt,</em></a> piano</h2>
-      </div>
+     <div class="col-sm-6" id="ticket-info"> 
+      <!-- Season schedule populated via concerts.json -->
+     
+      </div><!-- ticket-info -->
 
 
 <!-- 2nd column -->

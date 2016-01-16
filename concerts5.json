@@ -1,0 +1,155 @@
+{
+     "concerts": 
+     [
+         {
+             "date": "October 25, 2015",
+             "location": 
+                [
+                    {"name" : "Mt. Tamalpais United Methodist Church",
+                    "place" : "410 Sycamore Avenue, Mill Valley, CA 94941",
+                    "when" : "Concert begins at 4:00 pm"
+                    }
+                ],
+             "performances": 
+             [
+                {"name": "<em>J. S. Bach</em>",
+                "piece": "Violin Concerto in A minor, BWV 1041"
+                },
+                {"name": "<em>W. A. Mozart</em>",
+                "piece":  "Piano Concerto #6, K. 238"},
+                {"name" :"<em>J. Brahms</em>",
+                "piece": "Liebeslieder Waltzes, Op. 52 & 65"
+                }],
+
+             "soloists": 
+             [
+                {"name": "Alena Tsoi",
+                "instrument": "violin",
+                "anchor": "musicians.php#Alena Tsoi"},
+                {"name": "Marilyn Thompson",
+                "instrument": "piano",
+                "anchor": "musicians.php#Marilyn Thompson"}
+             ]
+         },
+         {
+             "date": "December 6, 2015",
+             "location": 
+                [
+                    {"name" : "Mt. Tamalpais United Methodist Church",
+                    "place" : "410 Sycamore Avenue, Mill Valley, CA 94941",
+                    "when" : "Concert begins at 4:00 pm"
+                    }
+                ],
+              "performances": 
+             [
+                {"name" :"<em>W. A. Mozart</em>",
+                "piece": "Serenade #6, K. 239"},
+                {"name": "<em>P. Sarasate</em>",
+                "piece": "Gypsy Airs, Op. 20"},
+                {"name": "<em>F. Mendelssohn</em>",
+                "piece": "Piano Concerto #1, Op. 25"}
+                ],
+             "soloists": 
+             [
+                {"name": "Alena Tsoi",
+                "instrument": "violin",
+                "anchor": "musicians.php#Alena Tsoi"},
+                {"name": "Irina Behrendt",
+                "instrument": "piano",
+                "anchor": "musicians.php#Irina Behrendt"}
+             ]
+         },
+         {
+             "date": "January 24, 2016",
+             "location": 
+                [
+                    {"name" : "Mt. Tamalpais United Methodist Church",
+                    "place" : "410 Sycamore Avenue, Mill Valley, CA 94941",
+                    "when" : "Concert begins at 4:00 pm"
+                    }
+                ],
+             "performances": 
+              [
+                {"name": "<em>A. Vivaldi</em>",
+                "piece": "Violin Concerto \"Winter\""},
+                {"name":"<em>P. Tchaikovsky</em>",
+                "piece": "Pas de deux from \"Swan Lake\""},
+                {"name": "<em>W. A. Mozart</em>",
+                "piece": "Piano Concerto #12, K. 414"
+                }],
+             "soloists": 
+             [
+                {"name": "Mariya Borozina",
+                "instrument": "violin",
+                "anchor": "musicians.php#Mariya Borozina"},
+                {"name": "Victoria Ehrlich",
+                "instrument": "cello",
+                "anchor": "musicians.php#Victoria Ehrlich"},
+                {"name": "Marilyn Thompson",
+                "instrument": "piano",
+                "anchor": "musicians.php#Marilyn Thompson"}
+             ]
+         },
+
+         {
+             "date": "March 6, 2016",
+             "location": 
+                [
+                    {"name" : "Mt. Tamalpais United Methodist Church",
+                    "place" : "410 Sycamore Avenue, Mill Valley, CA 94941",
+                    "when" : "Concert begins at 4:00 pm"
+                    }
+                ],
+             "performances": 
+              [
+                {"name": "<em>L. Boccherini-</em>",
+                "piece": "Cello Concerto in B flat major"},
+                {"name": "<em>N. Rimsky-Korsakov</em>",
+                "piece" : "Fantasy on the Russian Themes, Op. 33"},
+                {"name": "<em>R. Schumann</em>",
+                "piece": "Piano Concerto in A minor, Op. 54"
+                }],
+             "soloists": 
+             [
+                {"name": "Victoria Ehrlich",
+                "instrument": "cello",
+                "anchor": "musicians.php#Mariya Borozina"},
+                {"name": "Polina Sedukh",
+                "instrument": "violin",
+                "anchor": "musicians.php#Victoria Ehrlich"},
+                {"name": "Natalya Lundtvedt",
+                "instrument": "piano",
+                "anchor": "musicians.php#Marilyn Thompson"}
+             ]
+         },
+         {
+             "date": "May 8, 2016",
+             "location": 
+                [
+                    {"name" : "Mt. Tamalpais United Methodist Church",
+                    "place" : "410 Sycamore Avenue, Mill Valley, CA 94941",
+                    "when" : "Concert begins at 4:00 pm"
+                    }
+                ],
+             "performances": 
+              [
+                {"name": "<em>A. Vivaldi</em>",
+                "piece": "Violin Concerto \"Summer\""},
+                {"name": "<em>P. Tchaikovsky</em>",
+                "piece": "Andante cantabile, Op. 11"},
+                {"name": "<em>F. J. Haydn</em>",
+                "piece": "Piano Concerto in D major"
+                }],
+             "soloists": 
+             [
+                {"name": "Elina Lev",
+                "instrument": "violin",
+                "anchor": "musicians.php#Mariya Borozina"},
+                {"name": "Irina Behrendt",
+                "instrument": "piano",
+                "anchor": "musicians.php#Victoria Ehrlich"}
+             ]
+         }
+     ]
+ }
+

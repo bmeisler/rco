@@ -46,8 +46,9 @@
 
        <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
-  <form action="//sensitiveskinmagazine.us2.list-manage.com/subscribe/post?u=df2b62f883c43ba3749ff7368&amp;id=c53aaba024" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
+<form action="http://russsianchamberorch.us2.list-manage1.com/subscribe/post" method="post">
+<input type="hidden" name="u" value="5e0434478e96f6841daff1690">
+<input type="hidden" name="id" value="5854671be8">    <div id="mc_embed_signup_scroll">
       <div class="mc-field-group">
         <input type="email" value="" name="EMAIL" placeholder="Email Address (required)" onfocus="this.placeholder=''" onblur="this.placeholder='Email Address'" class="required form-control input-lg" id="mce-EMAIL">
       </div>
@@ -96,7 +97,8 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.js"></script>
-    <script src="js/menu-loader.js"></script> 
+    <script src="js/date.js"></script>
+    <script src="js/main.js"></script> 
   </body>
 </html>
 

@@ -1,0 +1,20 @@
+{
+     "concerts": 
+     [
+         {
+             "date": "October 25, 2015",
+             "performance": "<em>J. S. Bach</em> - Violin Concerto in A minor, BWV 1041",
+             "soloist": "<em>Alena Tsoi,</em>"
+         },
+         {
+             "date": "December 6, 2015",
+             "performance": "<em>W. A. Mozart</em> - Serenade #6, K. 239",
+             "soloist": "<em>Irina Behrendt</em>"
+         },
+         {
+             "date": "January 24, 2016",
+             "performance": "<em>A. Vivaldi</em> - Violin Concerto “Winter”",
+             "soloist": "<em>Marilyn Thompson</em>"
+         }
+     ]
+ }

@@ -1,0 +1,37 @@
+{
+     "concerts": 
+     [
+         {
+             "date": "October 25, 2015",
+             "performances": 
+             [
+                "<em>J. S. Bach</em> - Violin Concerto in A minor, BWV 1041",
+                "<em>W. A. Mozart</em> - Piano Concerto #6, K. 238",
+                "<em>J. Brahms</em> - Liebeslieder Waltzes, Op. 52 & 65"
+                ],
+
+             "soloist": "<em>Alena Tsoi,</em>"
+         },
+         {
+             "date": "December 6, 2015",
+              "performances": 
+             [
+                "<em>W. A. Mozart</em> - Serenade #6, K. 239",
+                "<em>P. Sarasate</em> - Gypsy Airs, Op. 20",
+                "<em>F. Mendelssohn</em> - Piano Concerto #1, Op. 25"
+                ],
+             "soloist": "<em>Irina Behrendt</em>"
+         },
+         {
+             "date": "January 24, 2016",
+             "performances": 
+              [
+                "<em>A. Vivaldi</em> - Violin Concerto Winter",
+                "<em>P. Tchaikovsky</em>- Pas de deux from Swan Lake",
+                "<em>W. A. Mozart</em> - Piano Concerto #12, K. 414"
+                ],
+             "soloist": "<em>Marilyn Thompson</em>"
+         }
+     ]
+ }
+
