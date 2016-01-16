@@ -184,16 +184,20 @@ $(document).ready(function () {
   //           console.log('error');
   //       });
   //   });
-  $.getJSON('concerts6.json',function(data){
+$.getJSON('concerts6.json',function(data){
             console.log('success');
             var fullString = '';
             var currentString = '';
             var found = false;
-            var nextConcertIndex;
-            var nextConcert = '';
+            var nextConcertIndex=null;
+            var nextConcertString = '';
+
+
+
             $.each(data.concerts,function(i,con){
                 currentString = '<h4 class="rco-date">'+con.date+'</h4>';
 
+                //compare today's date to the concert date, see if it's occurred yet
                 var d = Date.parse(con.date);
                 var t = Date.today();
                 //console.log(d);
@@ -203,10 +207,9 @@ $(document).ready(function () {
                   found = true;
                   nextConcertIndex = i;
                 }
-                console.log("nextConcertIndex: " + nextConcertIndex);
               
                 $.each(con.location, function(index, value){
-                    //console.log(value);
+                    console.log(value);
                     currentString += '<address><strong>'+value.name + '</strong><br>'
                     + value.place + '<br>'
                     + value.when + '</address>';
@@ -214,12 +217,12 @@ $(document).ready(function () {
                 
                 
                   $.each(con.performances, function(index, value){
-                    //console.log(value);
+                    console.log(value);
                     // fullString += '<p class="rco-pieces">' + value +'</p>';
 
-                    currentString += '<p class="rco-pieces"><em>' 
-                    + value.name 
-                    +  '</em> - ' 
+                    currentString += '<p class="rco-pieces">' 
+                    + '<em>' + value.name + '</em>'
+                    +  ' - ' 
                     + value.piece;
                     + '</p>'
 
@@ -235,28 +238,23 @@ $(document).ready(function () {
                     + '</em>, ' 
                     + value.instrument + '</h2>';
 
-                    fullString += currentString;
-                    console.log("currentString: " + currentString);
-                    if (i==nextConcertIndex){
-                      nextConcert = currentString;
-                    }
+                    //<h2 class="rco-players"><a href="musicians.html#Alena Tsoi"><em>Alena Tsoi,</em></a> violin</h2>
+
                   });
                   
-                $('#ticket-info').append(fullString);
-
-                //now get the data for the next concert
-
-                console.log(data.concerts[nextConcertIndex]);
-
-                
+                $('#ticket-info').append(currentString);//build the string of the season's concert on the tickets page
+                if (i==nextConcertIndex){
+                    nextConcertString = currentString;
+                }
                 
 
             });
-        $('#next-concert').append(nextConcert);
+            $('#next-concert').append(nextConcertString);//put the next concert on the home page
         }).error(function(){
             console.log('error');
         });
     });
+  
 
 
 // $('#myTab a').click(function (e) {
