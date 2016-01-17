@@ -41,12 +41,12 @@
         <i class="fa fa-bars"></i>
       </button>
        <div class="mobile-icons visible-xs-block">
-        <a data-toggle="collapse" data-target="#search-bar" class="circl"><i class="fa fa-search"></i></a>
-        <a data-toggle="collapse" data-target="#signup-bar" class="circl"><i class="fa fa-user"></i></a>
+<!--         <a data-toggle="collapse" data-target="#search-bar" class="circl"><i class="fa fa-search"></i></a>
+ -->        <a data-toggle="collapse" data-target="#signup-bar" class="circl"><i class="fa fa-user"></i></a>
       </div>
       <a class="navbar-brand" href="index.php">Russian Chamber Orchestra</a>
       <!-- Search -->
-      <div id="search-bar" class="collapse">
+      <!-- <div id="search-bar" class="collapse">
         <div class="container">
           <div class="row">
             <div class="search">
@@ -59,7 +59,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div id="signup-bar" class="collapse">
          <h4>Join our mailing list</h4>
@@ -124,14 +124,14 @@
             </i>
           </a>
         </li>
-        <li class="hidden-xs">
+        <!-- <li class="hidden-xs">
           <a data-toggle="collapse" data-target="#search-bar">
             <i class="circl">
               <i class="fa fa-search" ></i>
             </i>
           </a>
           </a>
-        </li>
+        </li> -->
 
       </ul>
 <!--        <ul class="nav navbar-nav navbar-right rco-padding-right">
