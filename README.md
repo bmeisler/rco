@@ -11,5 +11,7 @@ the css and js files, respectively.
 The concert dates on the home page and the tickets page are automatically updated by editing a single JSON file, 
 concerts6.json. This way, someone with very little training can update the concert schedule - the only part of the site that frequently gets updated. The JSON is parsed using jQuery in the main.js file. I used Date.js to determine (while parsing the JSON) when the next concert is, and to put just that one on the front page (index.php), while the entire schedule is added to tickets.php, using jQuery's append function. 
 
+NOTE: I kept my earlier "experiments" with JSON - names.json and concerts1.json through concerts5-json - in the repo, as a good example of parsing various kinds of increasingly complex json files. The parsing functions are in main.js, pointing at the respective json file, and commented out, except for the "live" one, concertst.json.
+
 The transition effect between pages is achieved via css and jQuery which manipulate the
 <body> tag, which has an id of "cbp-so-scroller." The css is found in the file coolnavbar.css (look for that id), and the jQuery function in main.js.
